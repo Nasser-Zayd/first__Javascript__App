@@ -1,0 +1,73 @@
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* end reset */
+
+.continer {
+  background-color: rgb(176, 172, 218);
+  max-width: 90%;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid rgb(213, 250, 5);
+  border-radius: 10px;
+  object-fit: contain;
+  margin-top: 3rem;
+}
+button {
+  border-radius: 7px;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  background-color: brown;
+  font-size: x-large;
+}
+#save-btn {
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  background-color: rgb(6, 125, 6);
+}
+#count-el {
+  padding: 10px;
+  color: red;
+}
+.h1 {
+  font: bolder;
+  margin-top: 2rem;
+  font-size: x-large;
+  color: ;
+}
+.h2 {
+  font: bolder;
+  font-size: xx-large;
+}
+.save__click {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.clik_me_button {
+  margin: 10px;
+}
+.Paragraph__Previous__entires p {
+  font-size: x-large;
+  padding: 15px;
+  font-weight: bolder;
+  color: black;
+}
+body {
+  background-image: url(images/musque.jpg.jpg);
+
+  background-size: cover;
+}
